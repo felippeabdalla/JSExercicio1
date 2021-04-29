@@ -6,7 +6,7 @@ O arquivo main.js contém um array com informações de 150 empresas de um congl
 {
   nome: "NOME DA EMPRESA",
   endereco: "RUA FULANO, 100",
-  caixa: 12405 (valor inteiro)
+  caixa: 12405 (valor inteiro),
   lucro: 4500 (valor inteiro)
 }
 ```
