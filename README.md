@@ -1,13 +1,15 @@
-# JSExercicio1
+# JavaScript - Exercício 1
 
 O arquivo main.js contém um array com informações de 150 empresas de um conglomerado, cada empresa contém a seguinte estrutura de objeto:
 
+```javascript
 {
   nome: "NOME DA EMPRESA",
   endereco: "RUA FULANO, 100",
-  caixa: TOTAL QUE A EMPRESA POSSUI EM CAIXA (valor inteiro)
-  lucro: TOTAL QUE A EMPRESA APRESENTOU DE LUCRO NESTE MÊS DE MARÇO (valor inteiro)
+  caixa: 12405 (valor inteiro)
+  lucro: 4500 (valor inteiro)
 }
+```
 
 Utilizando o arquivo main.js deste repositório você deve alterá-lo para apresentar os seguintes resultados no terminal:
 
