@@ -19,7 +19,7 @@ Utilizando o arquivo main.js deste repositório você deve alterá-lo para apres
 - Usar o array gerado no passo anterior para somar o total de vendas de todas as lojas, com o seguinte texto:
   -  "Apresentamos um resultado de R$ [TOTAL_DE_VENDAS] este mês"
 - Aplicar um bonus de 1000 reais ao caixa para cada loja que teve um lucro de vendas acima de 9000
-- Apresentar um resumo com o nome da loja e total em caixa em um texto no seguinte formato:
+- Apresentar um resumo com o nome da loja e total em caixa de todas as lojas com vendas acima de 9000 em um texto no seguinte formato:
     - "A loja [NOME_DA_LOJA] apresentou um lucro de vendas de [TOTAL_DE_VENDAS] e um caixa de [VALOR_EM_CAIXA_ATUALIZADO]"
 
 __ATENÇÃO: EM TODAS AS MENSAGENS APRESENTADAS NÃO É PERMITIDO FAZER A APRESENTAÇÃO DESTA STRING USANDO CONCATENAÇÃO COM O SINAL DE +__
