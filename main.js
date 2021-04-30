@@ -2,3 +2,44 @@ const empresas = [{"nome":"Silva - Pereira LTDA","endereco":"Oliveira Rua, 345",
 
 /* A partir desta linha você pode criar o seu programa, não altere nada acima desta linha */
 
+//Exercicio 1
+
+
+const empresasLucros = empresas.filter(function(empresa) {
+
+    return empresa.lucro > 7000
+
+});
+
+var result = `Este mês tivemos ${empresasLucros.length} empresas acima de R$ 7000,00`;
+
+console.log(result);
+
+//Exercicio 2
+
+const valoresLucro = empresas.map( (empresas) => {
+   
+    return empresas.lucro;
+
+})
+
+
+//Exercicio 3 
+const resultadoVendas = valoresLucro.reduce(function(total, numero){
+    return total + numero;
+});
+
+console.log(`Apresentamos um resultado de R$ ${resultadoVendas}`);
+
+
+//Exercicio 4
+empresas.map((empresa) =>{
+    if(empresa.lucro > 9000){
+        empresa.caixa += 1000;
+        console.log(`A loja ${empresa.nome} apresentou um lucro de vendas de ${empresa.lucro} e um caixa de ${empresa.caixa}`)
+    }
+})
+
+
+
+
